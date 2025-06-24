@@ -20,12 +20,12 @@ A fitness tracker API that can be used to track workouts, meals and goals.
 ## Getting Started
 **Clone the repository**
 
-git clone https://github.com/Reiss2025/Fitness_Tracker_API.git
+git clone https://github.com/Reiss2025/Fitness_Tracker_API.git <br>
 
 **Change your directory to Fitness_Tracker_API**
 
-cd Fitness_Tracker_API
-   
+cd Fitness_Tracker_API <br>
+
 **Install dependencies**
 
 npm install
