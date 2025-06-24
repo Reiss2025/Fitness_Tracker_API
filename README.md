@@ -30,7 +30,7 @@ cd Fitness_Tracker_API
 ```npm
 npm install
 ```
-**Create the database**
+**Create the database** <br><br>
 Use the provided Fitness_Tracker_Database.SQL file to create the required MySQL database.
 **Set up environment variables**
 Create a .env file in the root directory with the following:
@@ -50,8 +50,9 @@ TOKEN_EXPIRY=1h
 To make a user an admin, set the admin column to 1 for their user record in the database.
 
 **Start the Server**
-
+```npm
 npm start
+```
 
 ## Endpoints
 ### Public Routes
