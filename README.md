@@ -19,25 +19,23 @@ A fitness tracker API that can be used to track workouts, meals and goals.
 
 ## Getting Started
 **Clone the repository**
-
-git clone https://github.com/Reiss2025/Fitness_Tracker_API.git <br>
-
+```bash
+git clone https://github.com/Reiss2025/Fitness_Tracker_API.git
+```
 **Change your directory to Fitness_Tracker_API**
-
-cd Fitness_Tracker_API <br>
-
+```bash
+cd Fitness_Tracker_API
+```
 **Install dependencies**
-
+```npm
 npm install
-
+```
 **Create the database**
-
 Use the provided Fitness_Tracker_Database.SQL file to create the required MySQL database.
-
 **Set up environment variables**
-
 Create a .env file in the root directory with the following:
 
+```env
 DATABASE_HOST=your_host
 DATABASE_USER=your_username
 DATABASE_PASS=your_password
@@ -45,6 +43,7 @@ DATABASE_DB=your_database_name
 
 JWT_SECRET=your_random_secret
 TOKEN_EXPIRY=1h
+```
 
 **(Optional) Enable Admin Access**
 
@@ -101,4 +100,3 @@ npm start
 
 ## Creator
 Created by Reiss2025
-
