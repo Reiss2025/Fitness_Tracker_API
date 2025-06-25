@@ -58,7 +58,15 @@ To make a user an admin, set the admin column to 1 for their user record in the 
 npm start
 ```
 
+
 ## Endpoints
+If your server is running locally, you can access it at:
+
+`http://localhost:10120/endpoint-name`
+
+The default port number is **10120**, but this can be changed in the `index.js` file.  
+Remember to replace `endpoint-name` with one of the available endpoints listed below.
+
 ### Public Routes
 - `POST /login/` — User login  
 - `POST /register/` — User registration
