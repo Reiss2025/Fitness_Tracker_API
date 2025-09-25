@@ -14,7 +14,7 @@ A fitness tracker API that can be used to track workouts, meals and goals.
 - Workout tracking
 - Meal tracking
 - Goal setting and management
-- Personalized recommendations
+- Personalised recommendations
 - Admin control for user accounts
 
 ## Getting Started
